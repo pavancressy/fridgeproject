@@ -1,5 +1,13 @@
 package edu.sdccd.cisc190.fridgeproject;
-import java.util.Scanner;
-class Ingredient {
-    String name = "Broccoli";
+class Ingredient
+{
+    private String name = "";
+    public String getName()
+    {
+        return name;
+    }
+    public void setName(String n)
+    {
+        name = n;
+    }
 }
